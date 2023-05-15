@@ -64,7 +64,7 @@
                     <a href="{{url('chi-tiet-san-pham',$outstanding->slug)}}" title="" class="thumb" >
                         <img src="{{url($outstanding->image)}}" height="189px" class="bob-on-hover">
                     </a>
-                    <a href="{{url('chi-tiet-san-pham/'.$outstanding->id.'-'.$outstanding->slug)}}" title="" class="product-name">{{$outstanding->name}}</a>
+                    <a href="{{url('chi-tiet-san-pham',$outstanding->slug)}}" title="" class="product-name">{{$outstanding->name}}</a>
                     <div class="price">
                         <span class="new">{{number_format($outstanding->price,0,'','.')}} đ</span>
                     </div>
@@ -88,7 +88,7 @@
                     <a href="{{url('chi-tiet-san-pham',$phone->slug)}}" title="" class="thumb">
                         <img src="{{url($phone->image)}}" height="189px" class="bob-on-hover" >
                     </a>
-                    <a href="{{url('chi-tiet-san-pham/'.$phone->id.'-'.$phone->slug)}}" title="" class="product-name">{{$phone->name}}</a>
+                    <a href="{{url('chi-tiet-san-pham',$phone->slug)}}" title="" class="product-name">{{$phone->name}}</a>
                     <div class="price">
                         <span class="new">{{number_format($phone->price,0,'','.')}} đ</span>
                     </div>
@@ -112,7 +112,7 @@
                     <a href="{{url('chi-tiet-san-pham',$laps->slug)}}" title="" class="thumb">
                         <img src="{{url($laps->image)}}" height="189px" class="bob-on-hover" style="height: 189px">
                     </a>
-                    <a href="{{url('chi-tiet-san-pham/'.$laps->id.'-'.$laps->slug)}}" title="" class="product-name">{{$laps->name}}</a>
+                    <a href="{{url('chi-tiet-san-pham',$laps->slug)}}" title="" class="product-name">{{$laps->name}}</a>
                     <div class="price">
                         <span class="new">{{number_format($laps->price,0,'','.')}} đ</span>
                     </div>
@@ -137,7 +137,7 @@
                     <a href="{{url('chi-tiet-san-pham',$ipad->slug)}}" title="" class="thumb">
                         <img src="{{url($ipad->image)}}" height="189px" class="bob-on-hover" style="height: 189px">
                     </a>
-                    <a href="{{url('chi-tiet-san-pham/'.$ipad->id.'-'.$ipad->slug)}}" title="" class="product-name">{{$ipad->name}}</a>
+                    <a href="{{url('chi-tiet-san-pham',$ipad->slug)}}" title="" class="product-name">{{$ipad->name}}</a>
                     <div class="price">
                         <span class="new">{{number_format($ipad->price,0,'','.')}} đ</span>
                     </div>
@@ -162,7 +162,7 @@
                     <a href="{{url('chi-tiet-san-pham',$watch->slug)}}" title="" class="thumb">
                         <img src="{{url($watch->image)}}" height="189px" class="bob-on-hover" style="height: 189px">
                     </a>
-                    <a href="{{url('chi-tiet-san-pham/'.$watch->id.'-'.$watch->slug)}}" title="" class="product-name">{{$watch->name}}</a>
+                    <a href="{{url('chi-tiet-san-pham',$watch->slug)}}" title="" class="product-name">{{$watch->name}}</a>
                     <div class="price">
                         <span class="new">{{number_format($watch->price,0,'','.')}} đ</span>
                     </div>
